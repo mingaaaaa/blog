@@ -19,21 +19,82 @@ module.exports = {
         text: 'ming',
         items: [
           { text: 'power-by', link: 'https://www.vuepress.cn/guide' },
-          { text: '掘金', link: 'https://juejin.cn/user/712139234359182/posts' }
+          { text: 'CSDN', link: 'https://blog.csdn.net/qq_45279180?spm=1000.2115.3001.5343' }
         ]
       }
     ],
     // 侧边栏
     sidebar: [
+      // Typescript
       {
-        title: "笔记",
-        path: '/handbook/element-ui-verify的使用',
+        title: "TypeScript",
+        path: '/handbook/TypeScript/TypeScript基础',
         collapsable: false, // 不折叠
         children: [
-          { title: "element-ui-verify的使用", path: "/handbook/element-ui-verify的使用" },
-          { title: "Vue3笔记", path: "/handbook/Vue3笔记" }
+          { title: "TypeScript基础", path: "/handbook/TypeScript/TypeScript基础" },
         ],
-      }
+      },
+      // Vue
+      {
+        title: "Vue",
+        path: '/handbook/Vue/Vue3笔记',
+        collapsable: true, // 不折叠
+        children: [
+          { title: "Vue3笔记", path: "/handbook/Vue/Vue3笔记" },
+          { title: "Vue2工具函数源码阅读", path: "/handbook/Vue/vue2工具函数" },
+        ],
+      },
+      // Electron
+      {
+        title: "Electron",
+        path: '/handbook/Electron/electron使用笔记',
+        collapsable: false, // 不折叠
+        children: [
+          { title: "electron使用笔记", path: "/handbook/Electron/electron使用笔记" },
+          { title: "electron使用总结", path: "/handbook/Electron/PC端技术总结" },
+          { title: "electron开发指南", path: "/handbook/Electron/PC端页面开发指南" },
+        ],
+      },
+      // UI组件相关
+      {
+        title: "UI",
+        path: '/handbook/UI/element-ui-verify的使用',
+        collapsable: true, // 不折叠
+        children: [
+          { title: "element-ui-verify的使用", path: "/handbook/UI/element-ui-verify的使用" },
+        ],
+      },
+      // 第三方功能拓展库
+      {
+        title: "第三方功能库",
+        path: '/handbook/expand/Echarts',
+        collapsable: true, // 不折叠
+        children: [
+          { title: "Echarts", path: "/handbook/expand/Echarts" },
+          { title: "Echarts配置示例", path: "/handbook/expand/Echarts配置示例" },
+        ],
+      },
+      // 前端环境相关
+      {
+        title: "前端环境",
+        path: '/handbook/envConfig/git使用笔记',
+        collapsable: true, // 不折叠
+        children: [
+          { title: "git使用笔记", path: "/handbook/envConfig/git使用笔记" },
+          { title: "nrm的大致使用", path: "/handbook/envConfig/nrm的大致使用" },
+          { title: "nvm的安装", path: "/handbook/envConfig/nvm的安装" },
+        ],
+      },
+      // 个人组件封装
+      {
+        title: "自定义组件",
+        path: '/handbook/custom/git使用笔记',
+        collapsable: false, // 不折叠
+        children: [
+          { title: "web浏览器拍照组件", path: "/handbook/custom/浏览器拍照" },
+        ],
+      },
+      
     ],
   },
 }

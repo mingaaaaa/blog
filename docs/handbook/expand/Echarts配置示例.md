@@ -1,3 +1,9 @@
+---
+title: Echarts配置示例
+author: ming
+date: '2021-07-16'
+---
+
 ```javascript
 theme = {
     // 全图默认背景

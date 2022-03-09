@@ -1,3 +1,9 @@
+---
+title: electron的使用
+author: ming
+date: '2021-07-22'
+---
+
 ### 环境搭建
 
 使用`electron`时可能会出现下载报错的现象，这个时候就需要更改`electron`的源的地址，切换为淘宝的就可以下载了，使用下面的命令即可。
@@ -8,7 +14,6 @@ $ npm config set electron_mirror https://npm.taobao.org/mirrors/electron/
 
 我在写demo的时候出现了编译错误，
 
-<img src="C:%5CUsers%5C%E6%98%8E%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210526102504499.png" alt="image-20210526102504499" style="zoom:50%;" />
 
 这里会发现要编译的页面是乱码，排查后发现是`package-lock.json`文件出了问题，部分依赖的地址在使用`npm install`命令时会将淘宝的地址改为npm的地址，在编译的时候就会导致报错。
 

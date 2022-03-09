@@ -1,3 +1,9 @@
+---
+title: element-ui表单验证插件element-ui-verify
+author: ming
+date: '2021-06-06'
+---
+
 ### 1.下载使用
 
 ```bash

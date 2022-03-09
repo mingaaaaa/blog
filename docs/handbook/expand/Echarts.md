@@ -1,3 +1,9 @@
+---
+title: Echarts基本用法
+author: ming
+date: '2021-07-14'
+---
+
 ## 基本用法
 
 echarts的配置是通过option来的，echarts 的使用者，使用 `option` 来描述其对图表的各种需求，包括：有什么数据、要画什么图表、图表长什么样子、含有什么组件、组件能操作什么事情等等。简而言之，`option` 表述了：`数据`、`数据如何映射成图形`、`交互行为`。一个最基本的图表如下所示：
@@ -59,9 +65,6 @@ series的data属性用于存放图表数据，参数形式是数组`Array` 。
 
 除此之外，图表数据还可以通过`dataset`属性的形式来设置。可以参考下面两种方式
 
-| 方式一                                                       | 方式二                                                       |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![image-20210413234046545](C:\Users\明\AppData\Roaming\Typora\typora-user-images\image-20210413234046545.png) | ![image-20210413234111851](C:\Users\明\AppData\Roaming\Typora\typora-user-images\image-20210413234111851.png) |
 
 注：因为系列是一种特殊的组件，所以有时候也会出现 “组件和系列” 这样的描述，这种语境下的 “组件” 是指：除了 “系列” 以外的其他组件。
 
@@ -76,7 +79,6 @@ series的data属性用于存放图表数据，参数形式是数组`Array` 。
 
 这里数值的参考可以看下面的图：
 
-![image-20210413234859568](C:\Users\明\AppData\Roaming\Typora\typora-user-images\image-20210413234859568.png)
 
 少数圆形的组件或系列，可以使用“中心半径定位”，例如，[pie](https://echarts.apache.org/zh/option.html#series-pie)（饼图）、[sunburst](https://echarts.apache.org/zh/option.html#series-sunburst)（旭日图）、[polar](https://echarts.apache.org/zh/option.html#polar)（极坐标系）。
 
@@ -90,5 +92,4 @@ series的data属性用于存放图表数据，参数形式是数组`Array` 。
 
 x轴和y轴是可以共享的，例如一个option中只有一个xAxis配置，但是有两个yAxis配置，这时候两个yAxis都共用这个xAxis,只需要在series中使用的时候使用`yAixsIndex`也就是y轴配置的索引来使用不同的y轴配置，其余两个组件也是如此
 
-![image-20210414091206220](C:\Users\明\AppData\Roaming\Typora\typora-user-images\image-20210414091206220.png)
 
