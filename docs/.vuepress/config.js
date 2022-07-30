@@ -15,6 +15,7 @@ module.exports = {
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
+      { text: '随笔', link: '/life' },
       {
         text: 'ming',
         items: [
@@ -47,10 +48,10 @@ module.exports = {
       // Electron
       {
         title: "Electron",
-        path: '/handbook/Electron/electron使用笔记',
-        collapsable: false, // 不折叠
+        path: '/handbook/Electron/electron镜像地址设置',
+        collapsable: true, // 不折叠
         children: [
-          { title: "electron使用笔记", path: "/handbook/Electron/electron使用笔记" },
+          { title: "electron镜像地址设置", path: "/handbook/Electron/electron镜像地址设置" },
           { title: "electron使用总结", path: "/handbook/Electron/PC端技术总结" },
           { title: "electron开发指南", path: "/handbook/Electron/PC端页面开发指南" },
         ],
@@ -87,11 +88,12 @@ module.exports = {
       },
       // 个人组件封装
       {
-        title: "自定义组件",
-        path: '/handbook/custom/git使用笔记',
-        collapsable: false, // 不折叠
+        title: "解决方案",
+        path: '/handbook/custom/浏览器拍照',
+        collapsable: true, // 不折叠
         children: [
           { title: "web浏览器拍照组件", path: "/handbook/custom/浏览器拍照" },
+          { title: "剪贴板", path: "/handbook/custom/剪贴板" },
         ],
       },
       

@@ -1,5 +1,5 @@
 ---
-title: electron的使用
+title: electron镜像地址设置
 author: ming
 date: '2021-07-22'
 ---

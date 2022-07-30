@@ -23,7 +23,7 @@ $ tsc -v
 
 如果出现下面的样子就说明安装成功
 
-![image-20210929193550162](https://gitee.com/zhang_yang_ming/image/raw/master/image-20210929193550162.png)
+![image-20210929193550162](https://cdn.jsdelivr.net/gh/mingaaaaa/image/img/image-20210929193550162.png)
 
 这个时候再使用下面的命令生成一个ts的配置文件*tsconfg.json*
 
@@ -91,7 +91,7 @@ $ ts-node helloWorld.ts
 
 输出如下：
 
-![](https://gitee.com/zhang_yang_ming/image/raw/master/image-20211220232122388.png)
+![](https://cdn.jsdelivr.net/gh/mingaaaaa/image/img/image-20211220232122388.png)
 
 根据我的发现，这里的文件名好像是忽略大小写的。
 
@@ -105,7 +105,7 @@ $ ts-node helloWorld.ts
 
 在 JavaScript 中，原始类型指的是非对象且没有方法的数据类型，它包括 string、number、bigint、boolean、undefined 和 symbol 这六种  *（null 是一个伪原始类型，它在 JavaScript 中实际上是一个对象，且所有的结构化类型都是通过 null 原型链派生而来）*
 
-![](https://gitee.com/zhang_yang_ming/image/raw/master/image-20210929193726089.png)
+![](https://cdn.jsdelivr.net/gh/mingaaaaa/image/img/image-20210929193726089.png)
 
 ```typescript
 let firstname: string = 'Captain'; // 字符串字面量
