@@ -1,6 +1,6 @@
 module.exports = {
-  // title: "前端杂货铺", //被readme的heroText替代(标题)
-  // description: "一个前端小卒的成长记录", //被readme的tagline替代（副标题）
+  title: "前端杂货铺",
+  description: "搬砖仔的博客",
   // 路径名为 "/<REPO>/"
   base: "/blog/",
   //使用reco主题
@@ -10,11 +10,11 @@ module.exports = {
       lang: "zh-CN",
     },
   },
-  lastUpdated: false, //最后修改时间
   themeConfig: {
     // subSidebar: "auto",
     sidebarDepth: "2", //侧边栏标题深度
-    logo: "/assets/img/logo.jpg",
+    lastUpdated: true, //是否开启最后更新时间
+    logo: "/logo.jpg", //默认还是去publice文件夹找，和readerme中的logo同一个路径
     // 导航栏
     nav: [
       { text: "首页", link: "/" },
@@ -139,11 +139,19 @@ module.exports = {
           title: "牛老师",
           path: "/life/牛老师",
           collapsable: false, // 不折叠
-        }
+        },
 
         // "2022年中总结",
         // "牛老师",
       ],
+    },
+  },
+  configureWebpack: {
+    resolve: {
+      alias: {
+        // md中使用图片示例：(../images/logo.png)==(~@images/16.png)
+        "@images": "../images", //在md文件中使用图片路径别名  其实我用了图床，所以图片放不放该项目都无所谓
+      },
     },
   },
 };
