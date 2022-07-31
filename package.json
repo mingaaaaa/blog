@@ -1,6 +1,6 @@
 {
   "name": "blog",
-  "version": "1.1.2",
+  "version": "1.2.3",
   "description": "个人博客",
   "main": "index.js",
   "scripts": {

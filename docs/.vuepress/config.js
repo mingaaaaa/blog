@@ -14,12 +14,13 @@ module.exports = {
     // subSidebar: "auto",
     sidebarDepth: "2", //侧边栏标题深度
     lastUpdated: true, //是否开启最后更新时间
+    authorAvatar: "/logo.jpg", //右侧信息栏的图片
     logo: "/logo.jpg", //默认还是去publice文件夹找，和readerme中的logo同一个路径
     // 导航栏
     nav: [
       { text: "首页", link: "/" },
-      { text: "笔记", link: "/handbook/TypeScript/TypeScript基础" },
-      { text: "随笔", link: "/life/2022年中总结.md" },
+      { text: "笔记", link: "/handbook/" }, //  不知道为啥  点击这个nav不会跳转到readme而是侧边栏的第一个md文件，但是还是需要readme
+      { text: "随笔", link: "/life/" },// /默认会跳转到改文件夹下的readme，如果直接指定md文件则不会给nav添加active样式
       {
         text: "ming",
         items: [
