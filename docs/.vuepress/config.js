@@ -1,6 +1,6 @@
 module.exports = {
-  title: "前端杂货铺",
-  description: "一个前端小卒的成长记录",
+  // title: "前端杂货铺", //被readme的heroText替代(标题)
+  // description: "一个前端小卒的成长记录", //被readme的tagline替代（副标题）
   // 路径名为 "/<REPO>/"
   base: "/blog/",
   //使用reco主题
@@ -10,13 +10,16 @@ module.exports = {
       lang: "zh-CN",
     },
   },
-  lastUpdated: true, //最后修改时间
+  lastUpdated: false, //最后修改时间
   themeConfig: {
-    subSidebar: "auto",
+    // subSidebar: "auto",
+    sidebarDepth: "2", //侧边栏标题深度
+    logo: "/assets/img/logo.jpg",
     // 导航栏
     nav: [
       { text: "首页", link: "/" },
-      { text: "随笔", link: "/life/" },
+      { text: "笔记", link: "/handbook/TypeScript/TypeScript基础" },
+      { text: "随笔", link: "/life/2022年中总结.md" },
       {
         text: "ming",
         items: [
@@ -30,7 +33,7 @@ module.exports = {
     ],
     // 侧边栏
     sidebar: {
-      "/": [
+      "/handbook/": [
         // Typescript
         {
           title: "TypeScript",
@@ -47,7 +50,7 @@ module.exports = {
         {
           title: "Vue",
           path: "/handbook/Vue/Vue3笔记",
-          collapsable: true, // 不折叠
+          collapsable: false, // 不折叠
           children: [
             { title: "Vue3笔记", path: "/handbook/Vue/Vue3笔记" },
             {
@@ -60,7 +63,7 @@ module.exports = {
         {
           title: "Electron",
           path: "/handbook/Electron/electron镜像地址设置",
-          collapsable: true, // 不折叠
+          collapsable: false, // 不折叠
           children: [
             {
               title: "electron镜像地址设置",
@@ -80,7 +83,7 @@ module.exports = {
         {
           title: "UI",
           path: "/handbook/UI/element-ui-verify的使用",
-          collapsable: true, // 不折叠
+          collapsable: false, // 不折叠
           children: [
             {
               title: "element-ui-verify的使用",
@@ -92,7 +95,7 @@ module.exports = {
         {
           title: "第三方功能库",
           path: "/handbook/expand/Echarts",
-          collapsable: true, // 不折叠
+          collapsable: false, // 不折叠
           children: [
             { title: "Echarts", path: "/handbook/expand/Echarts" },
             {
@@ -105,7 +108,7 @@ module.exports = {
         {
           title: "前端环境",
           path: "/handbook/envConfig/git使用笔记",
-          collapsable: true, // 不折叠
+          collapsable: false, // 不折叠
           children: [
             { title: "git使用笔记", path: "/handbook/envConfig/git使用笔记" },
             {
@@ -119,7 +122,7 @@ module.exports = {
         {
           title: "解决方案",
           path: "/handbook/custom/浏览器拍照",
-          collapsable: true, // 不折叠
+          collapsable: false, // 不折叠
           children: [
             { title: "web浏览器拍照组件", path: "/handbook/custom/浏览器拍照" },
             { title: "剪贴板", path: "/handbook/custom/剪贴板" },
@@ -136,7 +139,8 @@ module.exports = {
           title: "牛老师",
           path: "/life/牛老师",
           collapsable: false, // 不折叠
-        },
+        }
+
         // "2022年中总结",
         // "牛老师",
       ],
