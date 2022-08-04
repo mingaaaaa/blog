@@ -158,3 +158,4 @@ module.exports = {
 };
 
 // 在git bush中运行  sh deploy.sh  部署项目
+// 部署其实就是将dist包提交到gh-pages分支
