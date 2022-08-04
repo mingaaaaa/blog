@@ -141,6 +141,11 @@ module.exports = {
           path: "/life/牛老师",
           collapsable: false, // 不折叠
         },
+        {
+          title: "幺爷",
+          path: "/life/幺爷",
+          collapsable: false, // 不折叠
+        },
 
         // "2022年中总结",
         // "牛老师",
