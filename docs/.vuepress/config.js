@@ -20,7 +20,7 @@ module.exports = {
     nav: [
       { text: "首页", link: "/" },
       { text: "笔记", link: "/handbook/" }, //  不知道为啥  点击这个nav不会跳转到readme而是侧边栏的第一个md文件，但是还是需要readme
-      { text: "随笔", link: "/life/" },// /默认会跳转到改文件夹下的readme，如果直接指定md文件则不会给nav添加active样式
+      { text: "随笔", link: "/life/" }, // /默认会跳转到改文件夹下的readme，如果直接指定md文件则不会给nav添加active样式
       {
         text: "ming",
         items: [
@@ -146,9 +146,16 @@ module.exports = {
           path: "/life/幺爷",
           collapsable: false, // 不折叠
         },
-
-        // "2022年中总结",
-        // "牛老师",
+        {
+          title: "狗",
+          path: "/life/小狗",
+          collapsable: false, // 不折叠
+        },
+        {
+          title: "驾照",
+          path: "/life/驾照",
+          collapsable: false, // 不折叠
+        },
       ],
     },
   },
