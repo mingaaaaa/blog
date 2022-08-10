@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: /home.jpg
+heroImage: /light.jpg
 heroText: 前端杂货铺
-tagline: 一个前端小卒的搬砖路
+tagline: 万家灯火，一定会有我的一盏
 actionText: 浅看一下 →
 actionLink: /handbook/TypeScript/TypeScript基础
 features:
