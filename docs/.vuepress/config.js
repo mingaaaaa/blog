@@ -58,6 +58,14 @@ module.exports = {
               title: "Vue2工具函数源码阅读",
               path: "/handbook/Vue/vue2工具函数",
             },
+            {
+              title: "关于Vue的渲染函数的事件绑定",
+              path: "/handbook/Vue/关于Vue的渲染函数的事件绑定",
+            },
+            {
+              title: "一个Vue3数字框区间指令及其衍生的一个知识点",
+              path: "/handbook/Vue/一个Vue3数字框区间指令及其衍生的一个知识点",
+            },
           ],
         },
         // Electron
