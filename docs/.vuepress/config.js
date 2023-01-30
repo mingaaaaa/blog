@@ -164,6 +164,11 @@ module.exports = {
           path: "/life/驾照",
           collapsable: false, // 不折叠
         },
+        {
+          title: "午后随想",
+          path: "/life/午后随想",
+          collapsable: false, // 不折叠
+        },
       ],
     },
   },
