@@ -189,6 +189,11 @@ module.exports = {
           path: "/life/午后随想",
           collapsable: false, // 不折叠
         },
+        {
+          title: "我",
+          path: "/life/我",
+          collapsable: false, // 不折叠
+        },
       ],
     },
   },
