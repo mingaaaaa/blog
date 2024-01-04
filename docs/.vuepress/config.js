@@ -35,6 +35,26 @@ module.exports = {
     // 侧边栏
     sidebar: {
       "/handbook/": [
+        // js
+        {
+          title: "JavaScript",
+          path: "/handbook/js/防止重复请求",
+          collapsable: false, // 不折叠
+          children: [
+            {
+              title: "防止重复请求",
+              path: "/handbook/js/防止重复请求",
+            },
+            {
+              title: "jsencrypt",
+              path: "/handbook/js/jsencrypt",
+            },
+            {
+              title: "Unicode、Utf-8以及js的字符串与十六进制互转",
+              path: "/handbook/js/Unicode、Utf-8以及js的字符串与十六进制互转",
+            },
+          ],
+        },
         // Typescript
         {
           title: "TypeScript",
