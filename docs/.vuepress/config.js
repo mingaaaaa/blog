@@ -38,9 +38,13 @@ module.exports = {
         // js
         {
           title: "JavaScript",
-          path: "/handbook/js/防止重复请求",
+          path: "/handbook/js/从一个简单异步打印时间手写题到thunk和generator",
           collapsable: false, // 不折叠
           children: [
+            {
+              title: "从一个简单异步打印时间手写题到thunk和generator",
+              path: "/handbook/js/从一个简单异步打印时间手写题到thunk和generator",
+            },
             {
               title: "防止重复请求",
               path: "/handbook/js/防止重复请求",
