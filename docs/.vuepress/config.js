@@ -57,6 +57,14 @@ module.exports = {
               title: "Unicode、Utf-8以及js的字符串与十六进制互转",
               path: "/handbook/js/Unicode、Utf-8以及js的字符串与十六进制互转",
             },
+            {
+              title: "使用js创建img加载oss图片跨域的问题",
+              path: "/handbook/js/使用js创建img加载oss图片跨域的问题",
+            },
+            {
+              title: "html-to-image的使用及问题修复(无图、报错)",
+              path: "/handbook/js/html-to-image的使用及问题修复(无图、报错)",
+            },
           ],
         },
         // Typescript
@@ -89,6 +97,18 @@ module.exports = {
             {
               title: "一个Vue3数字框区间指令及其衍生的一个知识点",
               path: "/handbook/Vue/一个Vue3数字框区间指令及其衍生的一个知识点",
+            },
+          ],
+        },
+        // React
+        {
+          title: "React",
+          path: "/handbook/React/使用postcss-px-to-viewport-8-plugin将页面转响应式",
+          collapsable: false, // 不折叠
+          children: [
+            {
+              title: "使用postcss-px-to-viewport-8-plugin将页面转响应式",
+              path: "/handbook/React/使用postcss-px-to-viewport-8-plugin将页面转响应式"
             },
           ],
         },
